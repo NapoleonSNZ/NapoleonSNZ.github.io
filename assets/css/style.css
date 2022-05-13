@@ -40,9 +40,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+/* Header   */
+
 #header {
   transition: ease-in-out 0.3s;
   position: relative;
@@ -136,10 +135,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/* Desktop Navigation */
+/* Menu de navegacion */
+        /* NAvegación de escritorio */
+
 .nav-menu {
   margin-top: 35px;
 }
@@ -187,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
-/* Mobile Navigation */
+/* Navegacion Mobile*/
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
@@ -307,9 +305,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
+/* Sections General */
 section {
   overflow: hidden;
   position: absolute;
