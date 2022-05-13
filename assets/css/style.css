@@ -175,6 +175,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #AC1041;
   line-height: 1;
   display: inline-block;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 #header h1 a:hover {
