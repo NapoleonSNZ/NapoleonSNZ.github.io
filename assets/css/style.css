@@ -1,5 +1,5 @@
 
-body {
+/*body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
   color: #fff;
@@ -26,6 +26,112 @@ background-image: linear-gradient(180deg, #000000 0%, #16162c 50%, #007dc1 100%)
     background-attachment: fixed;
   }
 }
+*/
+
+
+
+@keyframes move-background {
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to { 
+    -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
+}
+@-webkit-keyframes move-background {
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to { 
+    -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
+}
+
+@-moz-keyframes move-background {    
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to { 
+    -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
+}
+
+    @-webkit-keyframes move-background {
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to { 
+    -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
+}
+
+.background-container{
+  position: fixed;
+  top: 0;
+  left:0;
+  bottom: 0;
+  right: 0;
+}
+
+.background-container img{
+  height: 70vh;
+  width:70vh;
+  position: absolute;
+  z-index: 3;
+  right: 20px;
+  opacity: 0.3;
+}
+
+
+.stars {
+ background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+ position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+    z-index: 0;
+}
+
+.twinkling{
+  width:10000px;
+  height: 100%;
+  background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png") repeat;
+  background-size: 1000px 1000px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    
+    -moz-animation:move-background 70s linear infinite;
+  -ms-animation:move-background 70s linear infinite;
+  -o-animation:move-background 70s linear infinite;
+  -webkit-animation:move-background 70s linear infinite;
+  animation:move-background 70s linear infinite;
+  
+}
+
+.clouds{
+  width:10000px;
+  height: 100%;
+  background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/clouds_repeat.png") repeat;
+  background-size: 1000px 1000px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+
+   -moz-animation:move-background 150s linear infinite;
+  -ms-animation:move-background 150s linear infinite;
+  -o-animation:move-background 150s linear infinite;
+  -webkit-animation:move-background 150s linear infinite;
+  animation:move-background 150s linear infinite;
+}
+
+
 
 a {
   color: #AC1041;
@@ -369,26 +475,31 @@ section .container {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
+/* About */
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
   color: #AC1041;
 }
 
+
 .style1{
   border-top: 1px solid  #AC1041;
+}
+
+.about-me .content p {
+  color: #d7e5e7;
 }
 
 .about-me .content ul {
   list-style: none;
   padding: 0;
+  color: #d7e5e7;
 }
 
 .about-me .content ul li {
   padding-bottom: 10px;
+  color: #d7e5e7;
 }
 
 .about-me .content ul i {
@@ -399,12 +510,11 @@ section .container {
 
 .about-me .content p:last-child {
   margin-bottom: 0;
+
 }
 
 
-/*--------------------------------------------------------------
-# Resume
---------------------------------------------------------------*/
+/* Resume */
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -437,14 +547,21 @@ section .container {
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+  color: #50a8cb;
+}
+
+.resume .resume-item p em {
+  color: #d7e5e7;
 }
 
 .resume .resume-item ul {
   padding-left: 20px;
+  color: #d7e5e7;
 }
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
+   color: #d7e5e7;
 }
 
 .resume .resume-item:last-child {
@@ -464,9 +581,7 @@ section .container {
 }
 
 
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
+/*  Portfolio */
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -621,9 +736,7 @@ section .container {
   right: 15px;
 }
 
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
+/*  Contact */
 .contact .info-box {
   color: #444444;
   padding: 20px;
@@ -807,8 +920,7 @@ section .container {
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
+# Detalles de PROYECTO*/
 .portfolio-details {
   padding-top: 40px;
   background: rgba(0, 0, 0, 0.8);
