@@ -473,16 +473,10 @@ section .container {
   font-weight: 400;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #fff;
+  color: #4ED1FA;
 }
-.section-title a::after {
-  content: "";
-  width: 120px;
-  height: 1px;
-  display: inline-block;
-  background: #AC1041;
-  margin: 4px 10px;
-}
+
+
 
 /* About */
 .about-me .content h3 {
