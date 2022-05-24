@@ -475,6 +475,14 @@ section .container {
   font-family: "Poppins", sans-serif;
   color: #fff;
 }
+.section-title a::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #AC1041;
+  margin: 4px 10px;
+}
 
 /* About */
 .about-me .content h3 {
