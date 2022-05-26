@@ -79,7 +79,8 @@ background-image: linear-gradient(180deg, #000000 0%, #16162c 50%, #007dc1 100%)
   position: absolute;
   z-index: 3;
   right: 20px;
-  opacity: 0.5;
+  top: 50px;
+  opacity: 0.6;
 }
 
 
@@ -117,6 +118,7 @@ background-image: linear-gradient(180deg, #000000 0%, #16162c 50%, #007dc1 100%)
   width:10000px;
   height: 100%;
   background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/clouds_repeat.png") repeat;
+  opacity: 60%;
   background-size: 1000px 1000px;
     position: absolute;
     right: 0;
@@ -492,6 +494,9 @@ section .container {
 
 .about-me .content p {
   color: #d7e5e7;
+}
+.about-me .content p span{
+  color: #50a8cb;
 }
 
 .about-me .content ul {
