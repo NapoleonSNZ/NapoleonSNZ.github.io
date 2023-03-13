@@ -200,6 +200,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   margin-top: 20px;
   color: rgba(255, 255, 255, 0.8);
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 #header h2 span {
@@ -243,7 +244,7 @@ h1, h2, h3, h4, h5, h6 {
   #header h2 {
     font-size: 20px;
     line-height: 30px;
-    font-family: 'Roboto Condensed', sans-serif;;
+    font-family: 'Roboto Condensed', sans-serif;
   }
   #header .social-links {
     margin-top: 15px;
