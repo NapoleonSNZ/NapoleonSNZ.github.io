@@ -148,9 +148,9 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 442px) {
   .background-container img {
-    height: 60vh;
-    width: 60vh;
-    position: absolute;
+    height: 90vh;
+    width: 90vh;
+    position: fixed;
     z-index: 3;
     left: -100px;
     top: 50px;
