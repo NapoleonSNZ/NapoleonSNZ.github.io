@@ -74,8 +74,8 @@ background-image: linear-gradient(180deg, #000000 0%, #16162c 50%, #007dc1 100%)
 }
 
 .background-container img{
-  height: 80vh;
-  width:80vh;
+  height: 90vh;
+  width: 90vh;
   position: absolute;
   z-index: 3;
   right: 0px;
@@ -133,8 +133,6 @@ background-image: linear-gradient(180deg, #000000 0%, #16162c 50%, #007dc1 100%)
   animation:move-background 150s linear infinite;
 }
 
-
-
 a {
   color: #AC1041;
 }
@@ -150,15 +148,14 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 442px) {
   .background-container img {
-    height: 80vh;
-    width:80vh;
+    height: 100vh;
+    width: 90vh;
     position: absolute;
     z-index: 3;
-    left: -40px;
+    left: -100px;
     top: 50px;
-    opacity: 0.5;
+    opacity: 0.6;
   }
-
 }
 
 /* Header   */
@@ -178,13 +175,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h1 {
-  font-size: 80px;
+  font-size: 48px;
   margin: 0;
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  /*font-family: 'VT323', monospace;*/
-  font-family: 'Turret Road', cursive;
+  font-family: 'Kelly Slab', cursive;
 }
 
 #header h1 a {
@@ -247,6 +243,7 @@ h1, h2, h3, h4, h5, h6 {
   #header h2 {
     font-size: 20px;
     line-height: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   #header .social-links {
     margin-top: 15px;
@@ -260,11 +257,12 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 442px) {
   #header h1 {
-    font-size: 36px;
+    font-size: 30px;
   }
   #header h2 {
     font-size: 15px;
     line-height: 30px;
+  }
 
 }
 
@@ -1022,6 +1020,4 @@ section .container {
   .portfolio-details .portfolio-info {
     padding-top: 20px;
   }
-}
-
 }
