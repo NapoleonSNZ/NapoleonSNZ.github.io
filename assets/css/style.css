@@ -146,17 +146,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
-@media (max-width: 442px) {
-  .background-container img {
-    height: 90vh;
-    width: 90vh;
-    position: fixed;
-    z-index: 3;
-    left: -100px;
-    top: 50px;
-    opacity: 0.6;
-  }
-}
+
 
 /* Header   */
 
