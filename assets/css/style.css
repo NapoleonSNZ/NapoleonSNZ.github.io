@@ -74,13 +74,13 @@ background-image: linear-gradient(180deg, #000000 0%, #16162c 50%, #007dc1 100%)
 }
 
 .background-container img{
-  height: 90vh;
-  width: 90vh;
+  height: 100vh;
+  width: 100vh;
   position: absolute;
   z-index: 3;
   right: 0px;
   top: 50px;
-  opacity: 0.6;
+  opacity: 0.4;
 }
 
 
@@ -152,8 +152,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 90vh;
     position: fixed;
     z-index: 3;
-    left: -100px;
-    top: 150px;
+    
+  
     opacity: 0.6;
   }
 }
