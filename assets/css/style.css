@@ -947,7 +947,7 @@ section .container {
 # Detalles de PROYECTO*/
 .portfolio-details {
   padding-top: 40px;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(249, 249, 249, 0.8);
   position: fixed;
   left: 0;
   right: 0;
@@ -978,7 +978,7 @@ section .container {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: rgb(255, 255, 255) !important;
+  background-color: rgb(255, 255, 255);
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
